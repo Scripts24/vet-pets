@@ -18,7 +18,7 @@
     --color-brand-light: #df7676;
     --color-body       : #EEF3FF;
     --color-heading    : #fff;
-    --color-border     : rgba(84, 85, 163, 0.1);
+    --color-border     : rgba(175, 175, 189, 0.1);
     --font-main        : 'Noto Sans', sans-serif;
     --border-radius    : 32px;
 }
@@ -56,6 +56,13 @@ section {
     padding: 120px 0;
 }
 
+.title {
+    margin-bottom      : 40px;
+    -webkit-text-stroke: 3px var(--color-brand);
+    color              : var(--color-heading);
+    letter-spacing     : .3rem;
+}
+
 .btn {
     padding: 12px 24px;
 }
@@ -76,7 +83,7 @@ section {
 
 .navbar {
     background-color: var(--color-bg-1) !important;
-    border-bottom: var(--color-border) 3px solid;
+    border-bottom   : var(--color-border) 5px solid;
 }
 
 .navbar-brand {
@@ -119,4 +126,23 @@ section {
     min-height           : 450px;
     background           : url(../img/bg.jpg) no-repeat center center/cover;
     background-attachment: fixed;
+}
+
+/**SERVICIOS*/
+
+.service {
+    background-color: var(--color-bg-2);
+    border-radius   : var(--border-radius);
+}
+
+.icon-box {
+    width           : 74px;
+    height          : 74px;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius   : 50%;
+    display         : inline-flex;
+    align-items     : center;
+    justify-content : center;
+    font-size       : 2rem;
+    color           : var(--color-heading);
 }
