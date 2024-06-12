@@ -1,8 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    box-shadow: none !important;
+* {
+    margin         : 0;
+    padding        : 0;
+    box-sizing     : border-box;
+    box-shadow     : none !important;
+    text-decoration: none !important;
+    outline        : none !important;
+    list-style     : none !important;
+}
+
+:root {
+    --color-bg-1       : #1A1A4C;
+    --color-bg-2       : #2C2E83;
+    --color-bg-3       : #5355EA;
+    --color-brand      : #f45454;
+    --color-brand-light: #df7676;
+    --color-body       : #EEF3FF;
+    --color-heading    : #fff;
+    --color-border     : rgba(44, 46, 131, .1);
+    --font-main        : 'Noto Sans', sans-serif;
+    --border-radius    : 32px;
+}
+
+body {
+    font-family     : var(--font-main);
+    background-color: var(--color-body);
+    color           : var(--color-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color      : var(--color-heading);
+    font-weight: 700;
+}
+
+a {
+    transition: all .4s ease;
+}
+
+a:hover {
+    color: var(--color-brand);
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 120px 0;
+}
+
+/**Navbar**/
+
+.navbar {
+    background-color: var(--color-bg-1) !important;
+}
+
+.navbar-brand {
+    display    : flex;
+    align-items: center;
+    gap        : 0.5rem;
+}
+
+.logo {
+    width: 50px;
+}
+
+.nav-link {
+    color      : var(--color-heading) !important;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color        : var(--color-brand) !important;
+    border-bottom: #EEF3FF 2px solid;
+}
+
+.btn {
+    padding: 12px 24px;
+}
+
+.btn-brand {
+    background-color: var(--color-brand);
+    color           : var(--color-heading);
+    font-weight     : 700;
+    border-radius   : 100px;
+}
+
+.btn-brand:hover {
+    background-color: var(--color-brand-light);
+    color           : var(--color-heading);
 }
