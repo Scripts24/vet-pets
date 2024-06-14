@@ -1,0 +1,16 @@
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar .btn {
+        display: block;
+        width  : 30%;
+        padding: 6px 14px !important;
+        margin : auto;
+    }
+
+    .footer-bottom img {
+        margin-top: 20px;
+    }
+}

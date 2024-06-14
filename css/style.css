@@ -53,7 +53,7 @@ img {
 }
 
 section {
-    padding: 90px 0;
+    padding: 120px 0;
 }
 
 .title {
@@ -162,7 +162,8 @@ section {
     height   : 180px;
 }
 
-#team .social-icon {
+#team .social-icon,
+footer .social-icon {
     width    : 38px;
     height   : 38px;
     font-size: 20px;
@@ -220,3 +221,25 @@ section {
 }
 
 /**FOOTER*/
+
+footer {
+    padding-top: 80px;
+}
+
+footer .footer-top {
+    padding-bottom: 30px;
+    border-bottom : 4px solid var(--color-border);
+}
+
+footer ul .icon-box {
+    margin-right: 10px;
+}
+
+footer .footer-bottom {
+    padding: 50px 0;
+}
+
+footer .footer-bottom img {
+    width : 250px;
+    border: 1px solid var(--color-heading);
+}
