@@ -53,7 +53,7 @@ img {
 }
 
 section {
-    padding: 120px 0;
+    padding: 90px 0;
 }
 
 .title {
@@ -84,6 +84,10 @@ section {
 .navbar {
     background-color: var(--color-bg-1) !important;
     border-bottom   : var(--color-border) 5px solid;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--color-brand) !important;
 }
 
 .navbar-brand {
@@ -214,3 +218,5 @@ section {
 .carousel-control-next {
     border-left: 4px solid var(--color-border);
 }
+
+/**FOOTER*/
