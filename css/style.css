@@ -23,6 +23,23 @@
     --border-radius    : 32px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: .3rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: var(--color-brand);
+    border-radius   : 5rem;
+}
+
 body {
     font-family     : var(--font-main);
     background-color: var(--color-bg-1);
