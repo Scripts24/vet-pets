@@ -14,3 +14,16 @@
         margin-top: 20px;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .marquee__text {
+        font-size     : 25px !important;
+        font-weight   : 600 !important;
+        letter-spacing: 4px !important;
+    }
+
+    .marquee__text img {
+        width : 30px;
+        height: 30px;
+    }
+}

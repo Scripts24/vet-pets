@@ -149,6 +149,44 @@ section {
     background-attachment: fixed;
 }
 
+/**MARQUEE TEXT*/
+
+.marquee__bl {
+    background: var(--color-bg-2);
+    padding   : 20px 0;
+}
+
+.marquee__text {
+    display       : inline-block;
+    position      : relative;
+    padding-right : 60px;
+    font-size     : 40px;
+    font-weight   : 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color         : var(--color-body);
+}
+
+.marquee__text img {
+    display  : block;
+    position : absolute;
+    width    : 40px;
+    top      : 50%;
+    right    : 0;
+    transform: translateY(-50%);
+    animation: rotate 8s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: translateY(-50%) rotate(0);
+    }
+
+    to {
+        transform: translateY(-50%) rotate(360deg);
+    }
+}
+
 /**SERVICIOS*/
 
 .service {
