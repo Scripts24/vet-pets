@@ -5,11 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
         drag: 'free',
         focus: 'center',
         autoplay: true,
-        interval: 1500,
         autoWidth: true,
         gap: 40,
         arrows: false,
         pagination: false,
-
+        speed: 2500,
     }).mount();
 });
